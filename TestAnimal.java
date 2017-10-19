@@ -18,7 +18,7 @@ import java.util.*;
 			animal1.setNombre(teclado.nextLine());
 
 			//Pedir la edad del animal 
-			System.out.print ("Teclee la edad del animal");
+			System.out.print ("Teclee la edad del animal en meses");
 			int edad = teclado.nextInt();
 
 			//Asignar edad al objeto animal1
@@ -26,7 +26,7 @@ import java.util.*;
 
 			//Informar de los datos del animal1
 			animal1.nace();
-			System.out.println("Mi nombre es " + animal1.getNombre() +" y mi edad es de " + animal1.getEdad() + " años");
+			System.out.println("Mi nombre es " + animal1.getNombre() +" y mi edad es de " + animal1.getEdad() + " meses");
 			
 		}
 	}
